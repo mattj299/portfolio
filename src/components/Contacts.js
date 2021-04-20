@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contacts.css";
 import resumeIcon from "../images/resumeIcon.png";
+import resume from "../resume/resume.pdf";
 
 import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai";
 
@@ -39,7 +40,7 @@ function Contacts() {
                 <AiOutlineMail />
               </li>
             </a>
-            <a href="/resume.pdf" target="_blank" rel="noreferrer">
+            <a href={resume} target="_blank" rel="noreferrer">
               <li className="contacts-list-icon contacts-list-resume">
                 <img
                   className="contacts-resume-icon"

@@ -3,6 +3,7 @@ import "./HeroSection.css";
 
 import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai";
 import resumeIcon from "../images/resumeIcon.png";
+import resume from "../resume/resume.pdf";
 
 function HeroSection({ openedNav }) {
   return (
@@ -49,7 +50,7 @@ function HeroSection({ openedNav }) {
                   <AiOutlineMail />
                 </li>
               </a>
-              <a href="/resume.pdf" target="_blank" rel="noreferrer">
+              <a href={resume} target="_blank" rel="noreferrer">
                 <li className="hero-header-bottom-icon hero-resume-icon-li">
                   <img
                     className="hero-header-resume-icon"
