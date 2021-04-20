@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b179dbec.chunk.css",
+    "main.js": "/portfolio/static/js/main.45fd1fa2.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.45fd1fa2.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.43d9a0ba.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.43d9a0ba.js.map",
+    "static/js/2.758ec2a0.chunk.js": "/portfolio/static/js/2.758ec2a0.chunk.js",
+    "static/js/2.758ec2a0.chunk.js.map": "/portfolio/static/js/2.758ec2a0.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.b179dbec.chunk.css.map": "/portfolio/static/css/main.b179dbec.chunk.css.map",
+    "static/js/2.758ec2a0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.758ec2a0.chunk.js.LICENSE.txt",
+    "static/media/HeroSection.css": "/portfolio/static/media/heroBg1SmallPhone.fabdb561.jpg",
+    "static/media/javierWashScreenshot.df3a857b.png": "/portfolio/static/media/javierWashScreenshot.df3a857b.png",
+    "static/media/navbarProject.5c35105d.png": "/portfolio/static/media/navbarProject.5c35105d.png",
+    "static/media/navbarProject2.14f1e95f.png": "/portfolio/static/media/navbarProject2.14f1e95f.png",
+    "static/media/personalPortfolio.4f0fef2b.png": "/portfolio/static/media/personalPortfolio.4f0fef2b.png",
+    "static/media/prestoPastaRemake.eec464e2.png": "/portfolio/static/media/prestoPastaRemake.eec464e2.png",
+    "static/media/prestoPastaRemake2.3cbc842f.png": "/portfolio/static/media/prestoPastaRemake2.3cbc842f.png",
+    "static/media/prestoPastaRemake3.57b9626a.png": "/portfolio/static/media/prestoPastaRemake3.57b9626a.png",
+    "static/media/quizHardData.5fced181.png": "/portfolio/static/media/quizHardData.5fced181.png",
+    "static/media/quizHardData2.73a3c93d.png": "/portfolio/static/media/quizHardData2.73a3c93d.png",
+    "static/media/quizHardData3.bbe5814e.png": "/portfolio/static/media/quizHardData3.bbe5814e.png",
+    "static/media/quizOpenTDB.f749f550.png": "/portfolio/static/media/quizOpenTDB.f749f550.png",
+    "static/media/recipeBookScreenshot.d1a8c46f.png": "/portfolio/static/media/recipeBookScreenshot.d1a8c46f.png",
+    "static/media/resume.c83942fe.pdf": "/portfolio/static/media/resume.c83942fe.pdf",
+    "static/media/tipCalculator.aaecbc48.png": "/portfolio/static/media/tipCalculator.aaecbc48.png",
+    "static/media/tipCalculator2.baf46496.png": "/portfolio/static/media/tipCalculator2.baf46496.png",
+    "static/media/toDoList.8982ab17.png": "/portfolio/static/media/toDoList.8982ab17.png",
+    "static/media/toDoList2.7c03784b.png": "/portfolio/static/media/toDoList2.7c03784b.png",
+    "static/media/weatherHere.d1c9c432.png": "/portfolio/static/media/weatherHere.d1c9c432.png",
+    "static/media/weatherHere2.f5e72731.png": "/portfolio/static/media/weatherHere2.f5e72731.png",
+    "static/media/weatherHere3.a867c9fb.png": "/portfolio/static/media/weatherHere3.a867c9fb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43d9a0ba.js",
+    "static/js/2.758ec2a0.chunk.js",
+    "static/css/main.b179dbec.chunk.css",
+    "static/js/main.45fd1fa2.chunk.js"
+  ]
+}
