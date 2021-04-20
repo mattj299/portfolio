@@ -22,16 +22,26 @@ function Navbar({ openedNav, toggleNav, closeNav }) {
                 <div className="navbar-menu-icon" onClick={toggleNav}>
                   <AiOutlineClose />
                 </div>
-                <a href="#projects" className="navbar-menu-item">
-                  <li className="" onClick={closeNav}>
-                    Projects
-                  </li>
+                <a
+                  href="#projects"
+                  onClick={closeNav}
+                  className="navbar-menu-item"
+                >
+                  <li className="">Projects</li>
                 </a>
-                <a href="#about" className="navbar-menu-item">
-                  <li onClick={closeNav}>About</li>
+                <a
+                  href="#about"
+                  onClick={closeNav}
+                  className="navbar-menu-item"
+                >
+                  <li>About</li>
                 </a>
-                <a href="#contacts" className="navbar-menu-item">
-                  <li onClick={closeNav}>Contacts</li>
+                <a
+                  href="#contacts"
+                  onClick={closeNav}
+                  className="navbar-menu-item"
+                >
+                  <li>Contacts</li>
                 </a>
                 {/* <a
                   href="https://github.com/mattj299"
