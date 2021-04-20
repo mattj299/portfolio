@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import HeroSection from "./components/HeroSection";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import About from "./components/About";
+import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
 
 function App() {
+  const [openedNav, setOpenedNav] = useState(false);
+
+  const toggleNav = () => setOpenedNav(!openedNav);
+
+  const closeNav = () => setOpenedNav(false);
+
+  useEffect(() => {
+    window.addEventListener("resize", closeNav);
+
+    return () => {
+      window.removeEventListener("resize", closeNav);
+    };
+  });
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar openedNav={openedNav} toggleNav={toggleNav} closeNav={closeNav} />
+      <HeroSection openedNav={openedNav} />
+      <Projects />
+      <About />
+      <Contacts />
+      <Footer />
+    </>
   );
 }
 
