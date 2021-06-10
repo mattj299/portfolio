@@ -1,7 +1,14 @@
 import React from "react";
 import "./About.css";
 
-import { DiReact, DiHtml5, DiCss3, DiJavascript1, DiGit } from "react-icons/di";
+import {
+  DiReact,
+  DiHtml5,
+  DiCss3,
+  DiJavascript1,
+  DiGit,
+  DiFirebase,
+} from "react-icons/di";
 
 import { MdPhonelink } from "react-icons/md";
 
@@ -15,26 +22,6 @@ function About() {
           <h1 className="section-header">About Me</h1>
 
           <div className="about-content">
-            <ul className="about-me-list">
-              <li className="about-me-list-item">
-                <strong>Eager</strong> Front End Web Developer.
-              </li>
-              <li className="about-me-list-item">
-                <strong>Self taught</strong> developer.
-              </li>
-              <li className="about-me-list-item">
-                <strong>Problem solver</strong> but will{" "}
-                <strong>communicate</strong> for help if needed.
-              </li>
-              <li className="about-me-list-item">
-                <strong>Ready</strong> to <strong>expand</strong> and grow.
-              </li>
-              <li className="about-me-list-item">
-                <strong>Able</strong> to <strong>adapt</strong> and
-                <strong> grow skills</strong>, be versatile.
-              </li>
-            </ul>
-
             <ul className="about-skills-list">
               <li className="about-skills-list-item">
                 <DiHtml5 />
@@ -60,10 +47,14 @@ function About() {
                 <DiGit />
                 <p className="about-skills-list-item-desc">GIT/GITHUB</p>
               </li>
+              <li className="about-skills-list-item">
+                <DiFirebase />
+                <p className="about-skills-list-item-desc">FIREBASE(NOSQL)</p>
+              </li>
             </ul>
 
             <div className="about-ending-text-container">
-              <h3>Wanting to learn, expand, and be more.</h3>
+              <h3>Ready to learn, expand, and more!</h3>
             </div>
           </div>
         </div>

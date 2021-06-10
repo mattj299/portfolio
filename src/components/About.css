@@ -16,7 +16,9 @@
 .about-content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   flex-wrap: wrap;
+  line-height: 30px;
 }
 
 .about-me-list,
@@ -33,6 +35,7 @@
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 25px;
+  width: 100%;
 }
 
 .about-skills-list-item {
@@ -40,7 +43,7 @@
   width: 50%;
   padding: 0.25em 0;
   text-align: center;
-  transition: all 0.5s;
+  transition: color 0.5s, transform 0.5s;
 }
 
 .about-skills-list-item:hover {
@@ -71,13 +74,12 @@
     flex-direction: row;
   }
 
-  .about-me-list,
-  .about-skills-list {
-    width: 50%;
-  }
-
   .about-skills-list {
     padding-top: 0px;
+  }
+
+  .about-skills-list-item {
+    width: 33.33%;
   }
 
   .about-skills-list-item-icon {
