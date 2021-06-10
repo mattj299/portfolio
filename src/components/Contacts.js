@@ -52,10 +52,7 @@ function Contacts() {
           </ul>
 
           <h3 className="contacts-content-desc">
-            If you need a front end developer don't be afraid to contact me!
-          </h3>
-          <h3 className="contacts-content-desc">
-            I will respond as soon as possible!
+            Contact me whenever possible!
           </h3>
         </div>
       </div>
