@@ -85,7 +85,7 @@ function Projects() {
           />
           <Project
             projectImg={prestoPastaRemake}
-            viewCode="https://github.com/mattj299/react-quiz-opentdb-api"
+            viewCode="https://github.com/mattj299/presto-pasta-remake"
             projectDesc="Complete remake of Presto Pasta home page only by looking at page."
             liveOrGallery={false}
             header="Presto Pasta Remake"
@@ -97,7 +97,7 @@ function Projects() {
           />
           <Project
             projectImg={tipCalculator}
-            viewCode="https://github.com/mattj299/recipe-book"
+            viewCode="https://github.com/mattj299/tip-calculator"
             projectDesc="Calculates amount to tip waiter based on # of people, service quality, and bill amount."
             liveOrGallery={false}
             header="Tip Calculator"
@@ -105,7 +105,7 @@ function Projects() {
           />
           <Project
             projectImg={toDoList}
-            viewCode="https://github.com/mattj299/recipe-book"
+            viewCode="https://github.com/mattj299/ToDoList"
             projectDesc="To Do List. Can check off, create, or delete to do's."
             liveOrGallery={false}
             header="To Do List"
@@ -113,7 +113,7 @@ function Projects() {
           />
           <Project
             projectImg={navbarProject}
-            viewCode="https://github.com/mattj299/react-quiz-opentdb-api"
+            viewCode="hthttps://github.com/mattj299/navigation-log"
             projectDesc="Dynamic Navbar taking up entire screen."
             liveOrGallery={false}
             header="Navbar Project"
