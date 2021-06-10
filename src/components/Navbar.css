@@ -30,14 +30,13 @@
   align-items: center;
   flex-direction: column;
   padding-top: 1.5em;
-  transition: all 0.5s;
+  transition: transform 0.5s;
   top: 0;
   right: 0;
   height: 100vh;
   background-color: black;
   transform: translateX(100%);
   border-left: 1px solid white;
-  /* IN FUTURE TRY TRANSITIONING IT ON AND OFF THE SCREEN, RIGHT NOW IT OR YOU'RE BEING FUCKING STUPID BUT JUST MOVE ON FROM IT HONESTLY OK, OK */
 }
 
 .navbar-menu.active {
@@ -53,7 +52,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  transition: all 0.5s;
+  transition: color 0.5s;
 }
 
 .navbar-menu-item:last-of-type {
@@ -74,6 +73,7 @@
     z-index: 1;
     opacity: 1;
     top: 0;
+    background-color: unset;
     display: flex;
     flex-direction: unset;
     justify-content: unset;
@@ -88,6 +88,7 @@
     padding: 0.75em 1em;
     border: none;
     width: unset;
+    background-color: unset;
     justify-content: center;
   }
 
