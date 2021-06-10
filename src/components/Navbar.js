@@ -43,36 +43,6 @@ function Navbar({ openedNav, toggleNav, closeNav }) {
                 >
                   <li>Contacts</li>
                 </a>
-                {/* <a
-                  href="https://github.com/mattj299"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="navbar-menu-item"
-                >
-                  <li onClick={closeNav}>
-                    <AiFillGithub />
-                  </li>
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/matthew-jimenez-56938220a/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="navbar-menu-item"
-                >
-                  <li onClick={closeNav}>
-                    <AiFillLinkedin />
-                  </li>
-                </a>
-                <a
-                  href="mailto:mateonas586@gmail.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="navbar-menu-item"
-                >
-                  <li onClick={closeNav}>
-                    <AiOutlineMail />
-                  </li>
-                </a> */}
               </ul>
             </div>
           </div>
