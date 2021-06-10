@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Projects.css";
 
 import javierWashScreenshot from "../images/javierWashScreenshot.png";
+import photoLibrary from "../images/photoLibrary.png";
 import recipeBookScreenshot from "../images/recipeBookScreenshot.png";
 import quizOpenTDB from "../images/quizOpenTDB.png";
 import tipCalculator from "../images/tipCalculator.png";
@@ -36,6 +37,13 @@ function Projects() {
         <h1 className="section-header">Personal Projects</h1>
         <div className="projects-content">
           <Project
+            projectImg={photoLibrary}
+            viewCode="https://github.com/mattj299/photo-library-firebase-react"
+            liveLink="https://photo-library-56bdf.web.app/"
+            projectDesc="Photo Library uses authentication and other features with use of firebase to save photos."
+            liveOrGallery={true}
+          />
+          <Project
             projectImg={javierWashScreenshot}
             viewCode="https://github.com/mattj299/javierWash/tree/master"
             liveLink="https://mattj299.github.io/javierWash/"
@@ -58,8 +66,8 @@ function Projects() {
           />
           <Project
             projectImg={personalPortfolio}
-            viewCode="https://github.com/mattj299/react-quiz-opentdb-api"
-            liveLink="https://mattj299.github.io/react-quiz-opentdb-api/"
+            viewCode="https://github.com/mattj299/portfolio"
+            liveLink="https://mattj299.github.io/portfolio/"
             projectDesc="Personal Portfolio built from scratch."
             liveOrGallery={true}
           />
@@ -173,9 +181,8 @@ function Project({
     if (!e.target.parentNode.offsetParent) {
       return;
     }
-    const overlayArray = e.target.parentNode.offsetParent.querySelectorAll(
-      ".overlay-img"
-    );
+    const overlayArray =
+      e.target.parentNode.offsetParent.querySelectorAll(".overlay-img");
     const currentSlide = overlayArray[slide];
     const previousSlide = overlayArray[slide - 1];
     currentSlide.classList.add("hide");
@@ -195,9 +202,8 @@ function Project({
     if (!e.target.parentNode.offsetParent) {
       return;
     }
-    const overlayArray = e.target.parentNode.offsetParent.querySelectorAll(
-      ".overlay-img"
-    );
+    const overlayArray =
+      e.target.parentNode.offsetParent.querySelectorAll(".overlay-img");
     const currentSlide = overlayArray[slide];
     const nextSlide = overlayArray[slide + 1];
     currentSlide.classList.add("hide");
