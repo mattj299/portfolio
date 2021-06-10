@@ -2,11 +2,20 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url("../images/heroBg1SmallPhone.jpg");
+  background-image: url("../images/heroBg1Large.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   color: white;
+}
+
+.hero-gradient {
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.35);
 }
 
 .hero-section .container,
@@ -34,7 +43,7 @@
 .hero-header-bottom {
   position: relative;
   text-align: center;
-  bottom: 7em;
+  bottom: 9em;
   z-index: 2;
   transition: all 0.5s;
 }
@@ -86,17 +95,21 @@
 }
 
 .hero-header-resume-icon {
-  width: 30px;
+  width: 22.5px;
 }
-@media (max-width: 361px) {
+@media (max-width: 400px) {
   .hero-header-top-h1 {
     font-size: 1.5em;
   }
 }
 
-@media (min-width: 650px) {
-  .hero-section {
-    background-image: url("../images/heroBg1Large.jpg");
+@media (min-width: 750px) {
+  .hero-header-bottom-icons {
+    font-size: 1.75em;
+  }
+
+  .hero-header-resume-icon {
+    width: 25px;
   }
 }
 
@@ -110,7 +123,15 @@
   }
 
   .hero-header-bottom {
-    bottom: 4.5em;
+    bottom: 7em;
+  }
+
+  .hero-header-bottom-icons {
+    font-size: 2em;
+  }
+
+  .hero-header-resume-icon {
+    width: 35px;
   }
 }
 
@@ -124,6 +145,10 @@
   }
 
   .hero-header-bottom {
-    bottom: 7em;
+    bottom: 9em;
+  }
+
+  .hero-header-resume-icon {
+    width: 42.5px;
   }
 }

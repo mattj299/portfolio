@@ -8,20 +8,18 @@ import resume from "../resume/resume.pdf";
 function HeroSection({ openedNav }) {
   return (
     <div className="hero-section">
+      <div className="hero-gradient"></div>
       <div className="container">
         <div className="hero-section-content">
           <div className="hero-header-top">
-            <h1 className="hero-header-top-h1">I'm Matthew Jimenez,</h1>
-            <p>A Front End Web Developer</p>
+            <h1 className="hero-header-top-h1">Matthew Jimenez</h1>
+            <p>Web Developer</p>
           </div>
           <div
             className={
               openedNav ? "hero-header-bottom opened-nav" : "hero-header-bottom"
             }
           >
-            <a href="#contacts" className="hero-header-bottom-cta">
-              Contact Me
-            </a>
             <ul className="hero-header-bottom-icons">
               <a
                 href="https://github.com/mattj299"
