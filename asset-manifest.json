@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f7b232cd.chunk.css",
-    "main.js": "/portfolio/static/js/main.4ae98825.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4ae98825.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.be783301.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.be783301.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.43d9a0ba.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.43d9a0ba.js.map",
-    "static/js/2.5c96aa8c.chunk.js": "/portfolio/static/js/2.5c96aa8c.chunk.js",
-    "static/js/2.5c96aa8c.chunk.js.map": "/portfolio/static/js/2.5c96aa8c.chunk.js.map",
+    "static/js/2.12dc1157.chunk.js": "/portfolio/static/js/2.12dc1157.chunk.js",
+    "static/js/2.12dc1157.chunk.js.map": "/portfolio/static/js/2.12dc1157.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.f7b232cd.chunk.css.map": "/portfolio/static/css/main.f7b232cd.chunk.css.map",
-    "static/js/2.5c96aa8c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5c96aa8c.chunk.js.LICENSE.txt",
+    "static/js/2.12dc1157.chunk.js.LICENSE.txt": "/portfolio/static/js/2.12dc1157.chunk.js.LICENSE.txt",
     "static/media/HeroSection.css": "/portfolio/static/media/heroBg1Large.6213a26b.jpg",
     "static/media/javierWashScreenshot.df3a857b.png": "/portfolio/static/media/javierWashScreenshot.df3a857b.png",
     "static/media/navbarProject.5c35105d.png": "/portfolio/static/media/navbarProject.5c35105d.png",
@@ -31,12 +31,13 @@
     "static/media/toDoList2.7c03784b.png": "/portfolio/static/media/toDoList2.7c03784b.png",
     "static/media/weatherHere.d1c9c432.png": "/portfolio/static/media/weatherHere.d1c9c432.png",
     "static/media/weatherHere2.fd544847.png": "/portfolio/static/media/weatherHere2.fd544847.png",
-    "static/media/weatherHere3.a867c9fb.png": "/portfolio/static/media/weatherHere3.a867c9fb.png"
+    "static/media/weatherHere3.a867c9fb.png": "/portfolio/static/media/weatherHere3.a867c9fb.png",
+    "static/media/whatsOnYourMind.4d6fdbe5.png": "/portfolio/static/media/whatsOnYourMind.4d6fdbe5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.43d9a0ba.js",
-    "static/js/2.5c96aa8c.chunk.js",
+    "static/js/2.12dc1157.chunk.js",
     "static/css/main.f7b232cd.chunk.css",
-    "static/js/main.4ae98825.chunk.js"
+    "static/js/main.be783301.chunk.js"
   ]
 }
