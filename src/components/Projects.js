@@ -21,6 +21,7 @@ import weatherHere3 from "../images/weatherHere3.png";
 import quizHardData from "../images/quizHardData.png";
 import quizHardData2 from "../images/quizHardData2.png";
 import quizHardData3 from "../images/quizHardData3.png";
+import whatsOnYourMind from "../images/whatsOnYourMind.png";
 
 import {
   AiFillEye,
@@ -36,6 +37,13 @@ function Projects() {
       <div className="container">
         <h1 className="section-header">Personal Projects</h1>
         <div className="projects-content">
+          <Project
+            projectImg={whatsOnYourMind}
+            viewCode="https://github.com/mattj299/whats-on-your-mind"
+            liveLink="https://whats-on-your-mind-project.netlify.app/"
+            projectDesc="Uses MERN stack. Lets user say what's on their mind. CRUD functionality."
+            liveOrGallery={true}
+          />
           <Project
             projectImg={photoLibrary}
             viewCode="https://github.com/mattj299/photo-library-firebase-react"

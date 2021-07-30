@@ -7,8 +7,12 @@ import {
   DiCss3,
   DiJavascript1,
   DiGit,
-  DiFirebase,
+  DiSass,
+  DiNodejs,
+  DiMongodb,
 } from "react-icons/di";
+
+import { SiFirebase } from "react-icons/si";
 
 import { MdPhonelink } from "react-icons/md";
 
@@ -19,7 +23,7 @@ function About() {
     <IconContext.Provider value={{ className: "about-skills-list-item-icon" }}>
       <div className="about" id="about">
         <div className="container">
-          <h1 className="section-header">About Me</h1>
+          <h1 className="section-header">Skills</h1>
 
           <div className="about-content">
             <ul className="about-skills-list">
@@ -48,8 +52,26 @@ function About() {
                 <p className="about-skills-list-item-desc">GIT/GITHUB</p>
               </li>
               <li className="about-skills-list-item">
-                <DiFirebase />
-                <p className="about-skills-list-item-desc">FIREBASE(NOSQL)</p>
+                <SiFirebase />
+                <p className="about-skills-list-item-desc">FIREBASE (NOSQL)</p>
+              </li>
+            </ul>
+
+            <br></br>
+
+            <h2 className="section-header">Understanding of</h2>
+            <ul className="about-skills-list">
+              <li className="about-skills-list-item">
+                <DiSass />
+                <p className="about-skills-list-item-desc">SCSS</p>
+              </li>
+              <li className="about-skills-list-item">
+                <DiNodejs />
+                <p className="about-skills-list-item-desc">NODEJS</p>
+              </li>
+              <li className="about-skills-list-item">
+                <DiMongodb />
+                <p className="about-skills-list-item-desc">MONGODB</p>
               </li>
             </ul>
 
