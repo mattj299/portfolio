@@ -82,7 +82,7 @@ function Projects() {
           />
           <Project
             projectImg={personalPortfolio}
-            viewCode="https://github.com/mattj299/portfolio"
+            viewCode="https://github.com/mattj299/portfolio/tree/master"
             liveLink="https://mattj299.github.io/portfolio/"
             projectDesc="Personal Portfolio built from scratch."
             liveOrGallery={true}
