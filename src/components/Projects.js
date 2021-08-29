@@ -22,6 +22,7 @@ import quizHardData from "../images/quizHardData.png";
 import quizHardData2 from "../images/quizHardData2.png";
 import quizHardData3 from "../images/quizHardData3.png";
 import whatsOnYourMind from "../images/whatsOnYourMind.png";
+import whatsOnYourMindAuth from "../images/whatsOnYourMindAuth.png";
 
 import {
   AiFillEye,
@@ -38,10 +39,17 @@ function Projects() {
         <h1 className="section-header">Personal Projects</h1>
         <div className="projects-content">
           <Project
+            projectImg={whatsOnYourMindAuth}
+            viewCode="https://github.com/mattj299/whats-on-your-mind-auth"
+            liveLink="https://whats-on-your-mind-auth.netlify.app/"
+            projectDesc="Uses MERN stack. CRUD functionality with custom and google authentication. Uses mongodb."
+            liveOrGallery={true}
+          />
+          <Project
             projectImg={whatsOnYourMind}
             viewCode="https://github.com/mattj299/whats-on-your-mind"
             liveLink="https://whats-on-your-mind-project.netlify.app/"
-            projectDesc="Uses MERN stack. Lets user say what's on their mind. CRUD functionality."
+            projectDesc="Same MERN application without authentication."
             liveOrGallery={true}
           />
           <Project
