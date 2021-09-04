@@ -1,0 +1,291 @@
+/* Projects */
+.projects-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 1em;
+}
+
+/* Project */
+.project,
+.project-extras {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project {
+  margin: 1em 0;
+  max-width: 350px;
+  transition: all 0.5s;
+}
+
+.project:hover {
+  box-shadow: 0 0 25px #000;
+}
+
+.project:first-of-type {
+  margin-top: 0em;
+}
+
+.project-img {
+  width: 100%;
+  height: 175px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.project-img-overlay {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-img-overlay:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay-live-btn {
+  color: white;
+  background-color: #000;
+  padding: 1em 3.5em;
+  transition: all 0.5s;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.overlay-live-btn:hover {
+  color: #000;
+  background-color: white;
+}
+
+.project-extras {
+  align-items: flex-start;
+  background-color: #333;
+  padding: 0 1em;
+  color: white;
+}
+
+.project-description {
+  margin: 1em 0;
+  font-size: 0.8em;
+}
+
+.project-icon {
+  font-size: 2em;
+  margin: 0.25em 0.5em 0.5em 0em;
+  transition: all 0.5s;
+}
+
+.project-icon:hover {
+  color: #ffcb05;
+}
+
+/** Overlay gallery **/
+.overlay-gallery {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.overlay-gallery.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-gallery-close {
+  cursor: pointer;
+  position: absolute;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 10px;
+  right: 20px;
+}
+
+.overlay-gallery-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 1em;
+  position: relative;
+  padding: 3em;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.overlay-gallery-header {
+  padding: 1em 0;
+  text-align: center;
+  max-width: 200px;
+}
+
+.overlay-icons {
+  font-size: 2em;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.overlay-arrow-left,
+.overlay-arrow-right {
+  position: absolute;
+  top: 50%;
+}
+
+.overlay-arrow-left {
+  left: 0;
+}
+
+.overlay-arrow-right {
+  right: 0;
+}
+
+.overlay-img {
+  width: 60vw;
+  height: 25vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.overlay-img.hide {
+  display: none;
+}
+
+@media (min-width: 500px) {
+  .projects-content {
+    align-items: stretch;
+    flex-direction: unset;
+    flex-wrap: wrap;
+  }
+  .project {
+    width: 48%;
+    margin: 0.5em 1%;
+  }
+
+  .project:first-of-type {
+    margin-top: 0.5em;
+  }
+
+  .project-img {
+    height: 200px;
+  }
+
+  .project-extras {
+    height: 45%;
+  }
+
+  .overlay-gallery-content {
+    top: 0em;
+    padding: 2.5em;
+  }
+
+  .overlay-icons {
+    font-size: 2em;
+  }
+  .overlay-arrow-left {
+    left: 0.25em;
+  }
+
+  .overlay-arrow-right {
+    right: 0.25em;
+  }
+
+  .overlay-img {
+    width: 400px;
+    height: 200px;
+  }
+
+  .overlay-gallery-header {
+    max-width: unset;
+  }
+}
+
+@media (min-width: 1100px) {
+  .project {
+    width: 31%;
+    margin: 1em 1%;
+  }
+
+  .project-icon {
+    margin: 0.25em 0.5em 0.5em 0em;
+    transition: all 0.5s;
+  }
+
+  .overlay-gallery-content {
+    padding: 2.5em 4em;
+  }
+
+  .overlay-icons {
+    font-size: 2.5em;
+  }
+  .overlay-arrow-left {
+    left: 0.75em;
+  }
+
+  .overlay-arrow-right {
+    right: 0.75em;
+  }
+
+  .overlay-img {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .project-description {
+    font-size: 1em;
+  }
+
+  .project {
+    max-width: unset;
+  }
+
+  .project-icon {
+    font-size: 2.5em;
+    margin: 0.25em 0.5em 0.5em 0em;
+    transition: all 0.5s;
+  }
+
+  .overlay-gallery-content {
+    padding: 3em 5em;
+  }
+
+  .overlay-icons {
+    font-size: 4em;
+  }
+  .overlay-arrow-left {
+    left: 0.5em;
+  }
+
+  .overlay-arrow-right {
+    right: 0.5em;
+  }
+
+  .overlay-img {
+    width: 700px;
+    height: 450px;
+  }
+
+  .overlay-gallery-header {
+    font-size: 3.5em;
+  }
+}
