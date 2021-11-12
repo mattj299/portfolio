@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.67190a44.chunk.css",
-    "main.js": "/portfolio/static/js/main.6bc8c50e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6bc8c50e.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.779a8a34.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.779a8a34.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.43d9a0ba.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.43d9a0ba.js.map",
     "static/js/2.d69d01d4.chunk.js": "/portfolio/static/js/2.d69d01d4.chunk.js",
@@ -25,6 +25,7 @@
     "static/media/quizOpenTDB.f749f550.png": "/portfolio/static/media/quizOpenTDB.f749f550.png",
     "static/media/recipeBookScreenshot.d1a8c46f.png": "/portfolio/static/media/recipeBookScreenshot.d1a8c46f.png",
     "static/media/resume.64ad6e9e.pdf": "/portfolio/static/media/resume.64ad6e9e.pdf",
+    "static/media/timeManagementDark.2028f843.png": "/portfolio/static/media/timeManagementDark.2028f843.png",
     "static/media/tipCalculator.aaecbc48.png": "/portfolio/static/media/tipCalculator.aaecbc48.png",
     "static/media/tipCalculator2.baf46496.png": "/portfolio/static/media/tipCalculator2.baf46496.png",
     "static/media/toDoList.8982ab17.png": "/portfolio/static/media/toDoList.8982ab17.png",
@@ -39,6 +40,6 @@
     "static/js/runtime-main.43d9a0ba.js",
     "static/js/2.d69d01d4.chunk.js",
     "static/css/main.67190a44.chunk.css",
-    "static/js/main.6bc8c50e.chunk.js"
+    "static/js/main.779a8a34.chunk.js"
   ]
 }
