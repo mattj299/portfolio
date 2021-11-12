@@ -23,6 +23,7 @@ import quizHardData2 from "../images/quizHardData2.png";
 import quizHardData3 from "../images/quizHardData3.png";
 import whatsOnYourMind from "../images/whatsOnYourMind.png";
 import whatsOnYourMindAuth from "../images/whatsOnYourMindAuth.png";
+import timeManagementDark from "../images/timeManagementDark.png";
 
 import {
   AiFillEye,
@@ -71,6 +72,13 @@ function Projects() {
             viewCode="https://github.com/mattj299/recipe-book"
             liveLink="https://mattj299.github.io/recipe-book/"
             projectDesc="Recipe Book to create, find, and save new or old recipes."
+            liveOrGallery={true}
+          />
+          <Project
+            projectImg={timeManagementDark}
+            viewCode="https://github.com/mattj299/time-management-app"
+            liveLink="https://mattj299.github.io/time-management-app/"
+            projectDesc="Time management app to plan out your day."
             liveOrGallery={true}
           />
           <Project

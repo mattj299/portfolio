@@ -16,13 +16,16 @@ function Contacts() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:5000/send", {
-        method: "POST",
-        headers: {
-          "Content-type": "application/json",
-        },
-        body: JSON.stringify({ formData }),
-      });
+      const response = await fetch(
+        "https://portfolio-backend-contact-form.herokuapp.com/send",
+        {
+          method: "POST",
+          headers: {
+            "Content-type": "application/json",
+          },
+          body: JSON.stringify({ formData }),
+        }
+      );
 
       const result = await response.json();
 
