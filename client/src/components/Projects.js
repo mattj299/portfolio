@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Projects.css";
 
+import groceryList from "../images/groceryList.png";
 import javierWashScreenshot from "../images/javierWashScreenshot.png";
 import photoLibrary from "../images/photoLibrary.png";
 import recipeBookScreenshot from "../images/recipeBookScreenshot.png";
@@ -58,6 +59,13 @@ function Projects() {
             viewCode="https://github.com/mattj299/photo-library-firebase-react"
             liveLink="https://photo-library-56bdf.web.app/"
             projectDesc="Photo Library uses authentication and other features with use of firebase to save photos."
+            liveOrGallery={true}
+          />
+          <Project
+            projectImg={groceryList}
+            viewCode="https://github.com/mattj299/grocery-list/tree/master"
+            liveLink="https://mattj299.github.io/grocery-list/"
+            projectDesc="Create your grocery lists on your phone with ease."
             liveOrGallery={true}
           />
           <Project
