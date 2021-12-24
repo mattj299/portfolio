@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.67190a44.chunk.css",
+    "main.css": "/portfolio/static/css/main.b219d997.chunk.css",
     "main.js": "/portfolio/static/js/main.f18f464d.chunk.js",
     "main.js.map": "/portfolio/static/js/main.f18f464d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.43d9a0ba.js",
@@ -8,7 +8,7 @@
     "static/js/2.d69d01d4.chunk.js": "/portfolio/static/js/2.d69d01d4.chunk.js",
     "static/js/2.d69d01d4.chunk.js.map": "/portfolio/static/js/2.d69d01d4.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.67190a44.chunk.css.map": "/portfolio/static/css/main.67190a44.chunk.css.map",
+    "static/css/main.b219d997.chunk.css.map": "/portfolio/static/css/main.b219d997.chunk.css.map",
     "static/js/2.d69d01d4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d69d01d4.chunk.js.LICENSE.txt",
     "static/media/groceryList.91a28e9c.png": "/portfolio/static/media/groceryList.91a28e9c.png",
     "static/media/HeroSection.css": "/portfolio/static/media/heroBg1Large.6213a26b.jpg",
@@ -40,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.43d9a0ba.js",
     "static/js/2.d69d01d4.chunk.js",
-    "static/css/main.67190a44.chunk.css",
+    "static/css/main.b219d997.chunk.css",
     "static/js/main.f18f464d.chunk.js"
   ]
 }
