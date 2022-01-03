@@ -25,6 +25,7 @@ import quizHardData3 from "../images/quizHardData3.png";
 import whatsOnYourMind from "../images/whatsOnYourMind.png";
 import whatsOnYourMindAuth from "../images/whatsOnYourMindAuth.png";
 import timeManagementDark from "../images/timeManagementDark.png";
+import ptDribbbleMockup from "../images/pt-dribbble-mockup.png";
 
 import {
   AiFillEye,
@@ -87,6 +88,13 @@ function Projects() {
             viewCode="https://github.com/mattj299/time-management-app"
             liveLink="https://mattj299.github.io/time-management-app/"
             projectDesc="Time management app to plan out your day."
+            liveOrGallery={true}
+          />
+          <Project
+            projectImg={ptDribbbleMockup}
+            viewCode="https://github.com/mattj299/pt-dribbble-mockup"
+            liveLink="https://mattj299.github.io/pt-dribbble-mockup/"
+            projectDesc="Dribbble mockup. Only one page with exact mockup text. Objective was to replicate not make interactive."
             liveOrGallery={true}
           />
           <Project
