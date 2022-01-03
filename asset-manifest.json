@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b219d997.chunk.css",
-    "main.js": "/portfolio/static/js/main.f18f464d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f18f464d.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.fb57245f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fb57245f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.43d9a0ba.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.43d9a0ba.js.map",
     "static/js/2.d69d01d4.chunk.js": "/portfolio/static/js/2.d69d01d4.chunk.js",
@@ -20,6 +20,7 @@
     "static/media/prestoPastaRemake.eec464e2.png": "/portfolio/static/media/prestoPastaRemake.eec464e2.png",
     "static/media/prestoPastaRemake2.3cbc842f.png": "/portfolio/static/media/prestoPastaRemake2.3cbc842f.png",
     "static/media/prestoPastaRemake3.57b9626a.png": "/portfolio/static/media/prestoPastaRemake3.57b9626a.png",
+    "static/media/pt-dribbble-mockup.1fb1a275.png": "/portfolio/static/media/pt-dribbble-mockup.1fb1a275.png",
     "static/media/quizHardData.5fced181.png": "/portfolio/static/media/quizHardData.5fced181.png",
     "static/media/quizHardData2.73a3c93d.png": "/portfolio/static/media/quizHardData2.73a3c93d.png",
     "static/media/quizHardData3.bbe5814e.png": "/portfolio/static/media/quizHardData3.bbe5814e.png",
@@ -41,6 +42,6 @@
     "static/js/runtime-main.43d9a0ba.js",
     "static/js/2.d69d01d4.chunk.js",
     "static/css/main.b219d997.chunk.css",
-    "static/js/main.f18f464d.chunk.js"
+    "static/js/main.fb57245f.chunk.js"
   ]
 }
